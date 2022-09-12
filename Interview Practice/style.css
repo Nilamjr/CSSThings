@@ -1,0 +1,21 @@
+h3{
+    color:blue;
+}
+.triangle{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 300px solid green;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    transform: rotate(180deg);
+}
+
+p:hover::after{
+    content: "I am Nilam";
+}
+
+.profile::before{
+    content: attr(data-name);
+}

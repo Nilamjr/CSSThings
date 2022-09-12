@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .display-none{
+            height: 100px;
+            width: 100px;
+            background: crimson;
+        }
+        .visibility-hidden{
+            height: 100px;
+            width: 100px;
+            background: pink;
+            /* visibility: hidden; */
+            cursor: pointer;
+        }
+        .opacity-properties{
+            height: 100px;
+            width: 100px;
+            background: blue;
+            /* opacity: 0; */
+            cursor: pointer;
+            border: 2px solid #000;
+        }
+        .child-1{
+            height: 50px;
+            width: 50px;
+            border: 2px solid #000;
+        }
+        .child-2{
+            height: 50px;
+            width: 50px;
+            border: 2px solid blue;
+            background: rgb(67, 158, 26);
+        }
+        /* .child-3{
+            height: 50px;
+            width: 50px;
+            border: 2px solid #000;
+            background: rgb(67, 158, 26);
+        } */
+        .section1{
+            height: 300px;
+            width: 300px;
+            background: purple;
+        }
+        
+
+    @media(min-width: 767px) and (max-width: 900px){
+        .section1{
+            background: red;
+        }
+    }
+
+    /* @media(max-width: 900px){
+        .section1{
+            background: red;
+        }
+    } */
+   @media(max-width: 767px){
+        .section1{
+            background: yellow;
+        }
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="display-none">
+        <div class="child-1">
+
+        </div>
+    </div>
+    <div class="visibility-hidden">
+        <div class="child-2">
+
+        </div>
+    </div>
+    <div class="opacity-properties">
+        <!-- <div class="child-3">
+
+        </div> -->
+    </div>
+
+    <div class="section1">
+        
+    </div>
+
+
+</body>
+</html>

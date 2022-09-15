@@ -6,11 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interview Preparation</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .parent{
+            height: 600px;
+            width: 800px;
+            background: rebeccapurple;
+            color: #fff;
+            margin: 30px auto;
+            /* position: relative; */
+            font-size: 2em;
+        }
+        p{
+            /* position: relative; */
+            z-index: 1;
+        }
+        .child{
+            height: 60px;
+            width: 60px;
+            background: red;
+            /* position: absolute; */
+            /* top: 30px;             */
+
+        }
+        .grid{
+            font-size: 2em;
+        }
+        h1{
+            font-size: 3em;
+        }
+        p{
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+
 </head>
 <body>
 
+
+    <div class="parent">
+        <div class="grid">
+            <h1>Em</h1>
+            <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsum natus, nemo alias perferendis eaque non! Labore adipisci cupiditate unde magnam, nobis quisquam incidunt ab fugiat repellat ipsa eaque modi.</p>
+            <div class="child">
+                
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, tempora?</p>
+        </div>
+        
+    </div>
+
+
     <!-- SHADOWING IN CSS -->
-    <h3>Welcome to our website</h3>
+    <!-- <h3>Welcome to our website</h3>
     <div id="shadowHost">
         <span id="child">This is not part of the shadow DOM</span>
     </div>
@@ -22,7 +70,7 @@
             }
         </style>
         <h3>News Widget</h3>
-    </template>
+    </template> -->
 
     <!-- create trianngle using pure css  -->
  
